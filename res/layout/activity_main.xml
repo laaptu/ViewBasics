@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="@color/color_yellow">
+
+        <ImageView
+            android:id="@+id/firstImageView"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_margin="5dip"
+            android:background="@android:color/darker_gray"
+            android:padding="5dip"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/secondImageImageView"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:background="@android:color/black"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/thirdImageView"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:src="@drawable/ic_launcher"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:id="@+id/thirdLayout"
+        android:background="@color/color_orange">
+
+        <ImageView
+            android:id="@+id/fourthImageView"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:src="@drawable/ic_launcher"
+            android:background="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/fifthImageView"
+            android:layout_width="48dp"
+            android:layout_height="48dip" 
+            android:src="@drawable/ic_launcher"
+            android:background="@android:color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
